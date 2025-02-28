@@ -1,0 +1,16 @@
+Backups
+Take backup and put it into TEST/DEV
+  Inputs
+  - Database to backup
+  - Target location
+  - Confirmation?
+  - Authorisation, if required
+
+  Processes
+  - Take backup
+  - Restore to required location
+  - Update of application files to match origin version
+
+  Outputs
+  - Success/Failure with timings
+  - If failure, reason of faiure
